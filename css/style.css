@@ -1,0 +1,263 @@
+@import "../reset.css";
+
+@font-face {
+    font-family: "Yeseva_One";
+    src: local("Arial");
+    src: url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gentium_Book_Basic";
+    src: local("Arial");
+    src: url("../fonts/gentium-book-basic-bold_[allfont.ru].ttf") format("truetype");   
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Arial");
+    src: url("../fonts/LatoRegular.ttf") format("truetype");
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;  
+    cursor: pointer;   
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-background-promo {
+    background-image: url("../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(to bottom, #000 0%, transparent 100%);
+    height: 110px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.logo-link {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    align-self: center;
+}
+
+.main-nav {
+    text-align: center;
+    display: flex;
+    height: 100%;  
+}
+
+.main-nav li {
+    display: flex;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.main-nav a:hover {
+    border-top: 3px solid #cac7ba;   
+}
+
+.main-nav a {
+    font-family: "Gentium_Book_Basic";
+    color: #ffffff;
+    font-size: 21px;
+    align-items: center;
+    display: flex;
+    border: 3px solid transparent;
+}
+
+.main-social {
+    font-family: "Gentium_Book_Basic";
+    color: #ffffff;
+    font-size: 21px;
+    display: flex;
+    height: 100%;
+}
+
+.main-social li {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.promo {
+    padding: 130px 0 142px 0;
+}
+
+h1 {
+    font-family: "Yeseva_One";
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+.promo-decor {
+    text-align: center;
+    filter: invert(100%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.promo-buttons {
+    font-family: "Lato";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 35px;   
+}
+
+.book-table {
+    display: inline-block;
+    color: #fff;
+    background-color: rgba(0,0,0, .7);
+    border: 1px solid black;
+    padding: 20px 50px;
+}
+
+.see-menu {
+    color: #ffffff;
+    background-color: rgba(255,255,255, .28);
+    border: 1px solid white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+}
+
+p {
+    line-height: 2;
+    text-indent: 20px;
+}
+
+img {
+cursor: pointer;
+}
+
+.section-background-about {
+    background-image: url("../img/Pattern_justfood.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+}
+
+.about .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h2 {
+    font-family: "Yeseva_One";
+    color: #cc9900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-background-ingredients {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 758px;
+}
+
+h3 {
+    font-family: "Yeseva_One";
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-background-menu {
+    background-image: url("../img/Pattern_menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 995px;
+}
+
+h4, h5, h6 {
+    font-family: "Yeseva_One";
+    color: #cc9900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-background-reviews {
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 758px;
+}
+
+.section-background-reservations {
+    background-image: url("../img/Pattern_justfood.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+}
+
+.footer-background {
+    background-image: url("../img/Pattern_justfood.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+
+h7, h8, h9 {
+    font-family: "Yeseva_One";
+    color: #fefefe;
+    font-size: 21px;
+    text-align: center;
+}
+.site-footer {
+
+}
